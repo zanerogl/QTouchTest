@@ -43,6 +43,11 @@ bool Widget::event(QEvent *event)
 
 void Widget::paintEvent(QPaintEvent *)
 {
+
+    QPainter p(this);
+    p.setPen(QColor("black")); //设置画笔记颜色
+    p.drawRect(0, 0, width() -1, height() -1); //绘制边框
+
     QPainter painter(this);
     QImage image = m_currentImage;
 

@@ -16,11 +16,32 @@
   <widget class="Widget" name="widget" native="true">
    <property name="geometry">
     <rect>
-     <x>80</x>
+     <x>10</x>
      <y>100</y>
-     <width>651</width>
+     <width>741</width>
      <height>421</height>
     </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>32</y>
+     <width>381</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Picture name</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
    </property>
   </widget>
  </widget>
